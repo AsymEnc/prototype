@@ -2,14 +2,16 @@ library("shiny")
 
 shinyUI(
   fluidPage(
-      titlePanel("HERA Prototype"),
+      titlePanel("ASYMENC Prototype"),
       tabsetPanel(
           tabPanel('Word Network',
               sidebarLayout(
                   sidebarPanel(
                       sliderInput("dates", "Date range:",
                                   min = 1863, max = 1884,
-                                  value = c(1863, 1884)),
+                                  value = c(1863, 1884),
+                                  animate = FALSE,
+                                  format = "###0"),
                       hr(),
 
                       sliderInput("freq",
@@ -27,9 +29,9 @@ shinyUI(
               ),
           tabPanel('Word Timeline',
               sidebarLayout(
-                  sidebarPanel("side2"),
+                  sidebarPanel(),
                   mainPanel(
-                      'Timeline'
+                      'Timeline: coming soon!'
                       )
                   )
               )

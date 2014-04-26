@@ -8,7 +8,7 @@ getTermMatrix <- memoise(function(years) {
     ## Careful not to let just any name slip in here; a
     ## malicious user could manipulate this value.
     
-    text <- readLines(sprintf("../data/%s.txt", 'data'),
+    text <- readLines(sprintf("./data/%s.txt", 'data'),
                       encoding="UTF-8")
     
     myCorpus = Corpus(VectorSource(text))
