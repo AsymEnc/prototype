@@ -9,7 +9,7 @@ shinyUI(
                   sidebarPanel(
                       sliderInput("dates", "Date range:",
                                   min = 1863, max = 1884,
-                                  value = c(1863, 1884),
+                                  value = c(1863, 1864),
                                   animate = FALSE,
                                   format = "###0"),
                       hr(),
