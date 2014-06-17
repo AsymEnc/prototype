@@ -3,4 +3,4 @@ prototype
 
 ASYMENC Search Engine
 
-http://asymenc.clhd.uni-trier.de
+http://asymenc.cldh.uni-trier.de
