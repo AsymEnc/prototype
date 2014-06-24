@@ -41,3 +41,10 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise'
+
+gem 'sunspot_rails'
+gem 'sunspot_solr', :group => :development
+gem 'progress_bar'
+
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
